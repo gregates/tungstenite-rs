@@ -25,7 +25,7 @@ native-tls-vendored = ["native-tls", "native-tls-crate/vendored"]
 rustls-tls-native-roots = ["__rustls-tls", "rustls-native-certs"]
 rustls-tls-webpki-roots = ["__rustls-tls", "webpki-roots"]
 __rustls-tls = ["rustls", "webpki"]
-deflate = ["flate2"]
+deflate = ["flate2", "http"]
 
 [[example]]
 name = "autobahn-client"
